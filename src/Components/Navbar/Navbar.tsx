@@ -63,9 +63,9 @@ const NavBar = ({ theme }: { theme: string }) => {
         />
 
         <div className={`Navbar`}>
-          <h3 onClick={handleClickScrollStack} className={`link ${theme}`}>
+          {/* <h3 onClick={handleClickScrollStack} className={`link ${theme}`}>
             Tech Stack
-          </h3>
+          </h3> */}
           <h3 onClick={handleClickScrollAbout} className={`link ${theme}`}>
             About
           </h3>

@@ -44,7 +44,7 @@ const HomePortfolio = () => {
     <div className={`app ${theme}`}>
       <Navbar theme={theme}></Navbar>
       <Home theme={theme}></Home>
-      <Stack theme={theme}></Stack>
+      {/* <Stack theme={theme}></Stack> */}
       <About theme={theme}></About>
       <Works theme={theme}></Works>
       <Contact theme={theme}></Contact>

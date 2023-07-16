@@ -36,12 +36,12 @@ const NavBurger = (props: { theme: String }) => {
   return (
     <>
       <div className={`Navburger ${props.theme}`}>
-        <div
+        {/* <div
           onClick={handleClickScrollStack}
           className={`burger-nav firstNavLink`}
         >
           Stack
-        </div>
+        </div> */}
         <div onClick={handleClickScrollAbout} className={`burger-nav`}>
           About
         </div>

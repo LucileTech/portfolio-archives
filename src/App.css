@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@200&family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 /**************************************************************** GENERAL */
 
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1rem;
 }
 
@@ -177,6 +177,7 @@ a {
 /**************************************************************** HOME SECTION */
 
 .homeName {
+  font-size: 3.2rem;
   background: linear-gradient(90deg, #abbaee -2.06%, #387672 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -194,8 +195,8 @@ a {
 }
 
 .avatarbis {
-  width: 35vw;
-  max-width: 400px;
+  width: 15vw;
+  max-width: 200px;
   border-radius: 50%;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -206,7 +207,7 @@ a {
 }
 
 .Home-title {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   text-decoration: none;
   text-align: center;
   margin-right: 1rem;
@@ -353,6 +354,69 @@ a {
 }
 
 /**************************************************************** WORK */
+
+.italic {
+  font-style: italic;
+  font-weight: 500;
+}
+.td-top-title {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1rem auto;
+}
+/* .tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 0px;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 1rem;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 0px;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+} */
+.td-title {
+  text-align: center;
+  vertical-align: top;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.td-content {
+  text-align: center;
+  vertical-align: top;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+  }
+  .tg col {
+    width: auto !important;
+  }
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0px;
+  }
+}
 
 h5 {
   text-align: center;
@@ -910,11 +974,6 @@ input:checked + .slider:before {
 
   /********* HOMEPAGE */
 
-  .Section-title {
-    font-size: 2rem;
-    padding-top: 20vh;
-  }
-
   .App-section {
     height: 100%;
     min-height: 90vh;
@@ -930,7 +989,7 @@ input:checked + .slider:before {
   }
 
   .Home-title {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     text-decoration: none;
     text-align: center;
   }
