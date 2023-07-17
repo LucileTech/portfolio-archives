@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://lucile-tech.com/",
+  "homepage": "https://LucileTech.github.io/portfolio-archives",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
