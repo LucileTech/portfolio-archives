@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 import linkedin from "./../../Images/linkedin.png";
-import github from "./../../Images/github.png";
 import logo from "./../../Images/logowhite.png";
 import NavBurger from "./../../Components/Navbar/Navburger";
 
@@ -70,7 +69,7 @@ const NavBar = ({ theme }: { theme: string }) => {
             About
           </h3>
           <h3 onClick={handleClickScrollProjects} className={`link ${theme}`}>
-            Projects
+            Experience
           </h3>
 
           <h3 onClick={handleClickScrollContact} className={`link ${theme}`}>
@@ -84,13 +83,6 @@ const NavBar = ({ theme }: { theme: string }) => {
           rel="noopener noreferrer"
         >
           <img className={`socials-${theme}`} src={linkedin} alt="linkedin" />
-        </a>
-        <a
-          href="https://github.com/LucileTech"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className={`socials-${theme}`} src={github} alt="github" />
         </a>
         <div className="hamburger" onClick={toggleHamburger}>
           <div className={`burger burger1 ${theme}`} />

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/0546efd0-ae38-11ed-a31e-753411848f80";
+  "https://public.herotofu.com/v1/d5b75100-24b7-11ee-9907-0b23fd627d84";
 
 const ContactForm = ({ theme }: { theme: string }) => {
   const [submitted, setSubmitted] = useState(false);
@@ -24,7 +24,7 @@ const ContactForm = ({ theme }: { theme: string }) => {
 
   return (
     <div className="App-section" id="contactSection">
-      <h2 className="Section-title">CONTACT ME</h2>
+      <h2 className="Section-title">CONTACT</h2>
       <form
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}

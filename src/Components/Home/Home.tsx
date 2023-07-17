@@ -10,7 +10,7 @@ const Home = ({ theme }: { theme: string }) => {
           Lucile Landry Tronczyk,{" "}
           <span id="under-title">
             Stock footage research, intellectual property rights and clearance,
-            budget managment, delivery.
+            budget managment, delivery
           </span>
         </div>
       </div>

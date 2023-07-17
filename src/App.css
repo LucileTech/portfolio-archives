@@ -82,7 +82,7 @@ a {
   font-style: normal;
   font-weight: 500;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 13vh;
 }
 
 .Section-title.work {
@@ -357,7 +357,6 @@ a {
 
 .italic {
   font-style: italic;
-  font-weight: 500;
 }
 .td-top-title {
   font-size: 2rem;
@@ -570,9 +569,7 @@ h5 {
 }
 
 .AboutmePhoto img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 50vh;
 }
 
 .AboutmePhoto:hover img {

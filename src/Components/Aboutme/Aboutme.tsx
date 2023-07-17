@@ -1,14 +1,14 @@
 import React from "react";
-import avatarbis from "./../../Images/mybyelfiebiscopy.webp";
+import avatarbis from "./../../Images/familyarchives.jpg";
 
 const Aboutme = ({ theme }: { theme: string }) => {
   return (
     <div className="App-section" id="aboutSection">
       <h2 className="Section-title">ABOUT LUCILE</h2>
       <div className="AboutmeContent">
-        <div className="AboutmePhoto">
+        {/* <div className="AboutmePhoto">
           <img src={avatarbis} alt="avatar" />
-        </div>
+        </div> */}
         <div className="AboutmeText">
           <p className="AboutmeParagraph">
             Lucile is an accomplished archive researcher with a remarkable
