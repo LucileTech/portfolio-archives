@@ -6,9 +6,6 @@ const Aboutme = ({ theme }: { theme: string }) => {
     <div className="App-section" id="aboutSection">
       <h2 className="Section-title">ABOUT LUCILE</h2>
       <div className="AboutmeContent">
-        {/* <div className="AboutmePhoto">
-          <img src={avatarbis} alt="avatar" />
-        </div> */}
         <div className="AboutmeText">
           <p className="AboutmeParagraph">
             Lucile is an accomplished archive researcher with a remarkable
