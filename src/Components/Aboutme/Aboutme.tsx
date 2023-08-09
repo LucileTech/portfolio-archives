@@ -8,6 +8,16 @@ const Aboutme = ({ theme }: { theme: string }) => {
       <div className="AboutmeContent">
         <div className="AboutmeText">
           <p className="AboutmeParagraph">
+            Now based in San Francisco, Lucile has embarked on a new chapter of
+            her career. Equipped with a work permit, she is eager to explore new
+            opportunities and expand her professional horizons. Lucile's passion
+            for storytelling extends beyond archive research, as she has delved
+            into screenwriting and directed an award-winning documentary. Her
+            unwavering commitment to her craft promises to captivate and inspire
+            audiences, as she continues to make a profound impact on the
+            creative landscape.
+          </p>
+          <p className="AboutmeParagraph">
             Lucile is an accomplished archive researcher with a remarkable
             career spanning seven years in Paris. Her expertise lies in
             clearance and research of archives, making her an invaluable asset
@@ -36,16 +46,6 @@ const Aboutme = ({ theme }: { theme: string }) => {
             and impact. Moreover, her exceptional organizational skills have
             made her adept at managing budgets, adding another layer of value to
             her contributions.
-          </p>
-          <p className="AboutmeParagraph">
-            Now based in San Francisco, Lucile has embarked on a new chapter of
-            her career. Equipped with a work permit, she is eager to explore new
-            opportunities and expand her professional horizons. Lucile's passion
-            for storytelling extends beyond archive research, as she has delved
-            into screenwriting and directed an award-winning documentary. Her
-            unwavering commitment to her craft promises to captivate and inspire
-            audiences, as she continues to make a profound impact on the
-            creative landscape.
           </p>
         </div>
       </div>
